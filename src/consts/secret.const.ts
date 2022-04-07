@@ -1,0 +1,18 @@
+import dotenv = require('dotenv');
+
+dotenv.config();
+
+export const {
+  JWT_SECRET_KEY,
+  DB_CONNECTION_URI,
+  GOOGLEAPI_REFRESH_TOKEN,
+  GOOGLEAPI_CLIENT_SECRET,
+  GOOGLEAPI_CLIENT_ID,
+  SMTP_HOST,
+  SMTP_PORT,
+  SMTP_USER,
+  SMTP_PASSWORD,
+  API_URL,
+  JWT_ACCESS_SECRET,
+  JWT_REFRESH_SECRET
+} = process.env;
