@@ -6,14 +6,21 @@ You need to install all npm packages with `npm i`, then
 Configure `.env` file :
 
 DB_CONNECTION_URI= `your data base link here`
+
 // Gmail config //
+
 SMTP_HOST=`your host here`
+
 SMTP_PORT =`port here`
+
 SMTP_USER = `your email adress`
+
 SMTP_PASSWORD = ` email password`
 
 API_URL = http://localhost:5000
+
 JWT_ACCESS_SECRET = jwt-secret-key-string
+
 JWT_REFRESH_SECRET = jwt-refresh-secret-key-string
 
 ## Available Scripts
@@ -36,7 +43,7 @@ You may also see any lint errors in the console.
 
 ### `npm server`
 
-Runs frontend in the development mode.\
+Runs backend in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 The page will reload when you make changes.\
