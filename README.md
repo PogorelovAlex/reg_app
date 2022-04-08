@@ -1,7 +1,7 @@
 Reg-APP
 # Getting Started with Reg app
 
-You need to install all npm packages with `npm i`, then
+You need to install all npm packages with `npm i` in main directory and in `client` directory too, then
 
 Configure `.env` file :
 
